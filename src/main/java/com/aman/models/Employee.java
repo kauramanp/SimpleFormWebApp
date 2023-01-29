@@ -2,8 +2,8 @@ package com.aman.models;
 
 public class Employee {
 	
-	String firstName, lastName, department;
-	String technologies[];
+	private String firstName, lastName, department;
+	private String technologies[];
 	public String getFirstName() {
 		return firstName;
 	}
